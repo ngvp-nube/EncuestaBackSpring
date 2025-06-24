@@ -24,7 +24,7 @@ public class Usuario {
     @JoinColumn(name = "estilo_musica_id", nullable = false)
     private String estiloMusica;
 
-    // Constructores
+   
     public Usuario() {}
 
     public Usuario(String email, String estiloMusica) {
@@ -32,7 +32,7 @@ public class Usuario {
         this.estiloMusica = estiloMusica;
     }
 
-    // Getters y setters
+   
 
     public Long getId() {
         return id;
